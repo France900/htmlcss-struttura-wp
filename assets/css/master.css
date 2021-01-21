@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* -- GENERAL SETTINGS -- */
+.container {
+  margin: 20px 10%;
+}
+
+/* -- HEADER -- */
+header {
+
+}
+
+
+/* -- NOT STABLE WORK IN PROGRES-- */
+
+body * {
+  background-color: lightgray;
+  height: 50px;
+}
