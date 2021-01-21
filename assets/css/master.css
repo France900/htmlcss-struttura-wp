@@ -13,19 +13,26 @@
   margin: 20px 0;
 }
 
+[class*="100"] {
+  width: 100%;
+}
+
+
 /* -- HEADER -- */
 header div.row {
   background-color: lightpink;
+  height: 50px;
 }
 
 /* ---MAIN --- */
-main > div {
-  background-color: rgb(225,214,122)
+main div.orangino {
+  background-color: rgb(225,214,122);
+  height: 100px;
 }
 
-/* -- NOT STABLE WORK IN PROGRES-- */
-
-body * {
-  background-color: lightgray;
-  height: 50px;
+main div.blue {
+  margin-top: 20px;
+  background-color: lightblue;
+  height: 80px;
+  width
 }
