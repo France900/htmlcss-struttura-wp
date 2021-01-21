@@ -9,11 +9,19 @@
   margin: 20px 10%;
 }
 
-/* -- HEADER -- */
-header {
-
+.row {
+  margin: 20px 0;
 }
 
+/* -- HEADER -- */
+header div.row {
+  background-color: lightpink;
+}
+
+/* ---MAIN --- */
+main > div {
+  background-color: rgb(225,214,122)
+}
 
 /* -- NOT STABLE WORK IN PROGRES-- */
 
