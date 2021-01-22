@@ -4,35 +4,55 @@
   box-sizing: border-box;
 }
 
-/* -- GENERAL SETTINGS -- */
+[class^="col-"] {
+  height: 100px;
+  background-color: lightgray;
+  float: left;
+}
+
+.row:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 .container {
-  margin: 20px 10%;
+  width: 80%;
+  margin: 15px auto;
 }
 
-.row {
-  margin: 20px 0;
-}
-
-[class*="100"] {
+.col-100 {
   width: 100%;
 }
 
-
-/* -- HEADER -- */
-header div.row {
-  background-color: lightpink;
-  height: 50px;
+.col-50 {
+  width: 50%;
 }
 
-/* ---MAIN --- */
-main div.orangino {
-  background-color: rgb(225,214,122);
-  height: 100px;
+.col-25 {
+  width: 25%;
 }
 
-main div.blue {
-  margin-top: 20px;
-  background-color: lightblue;
-  height: 80px;
-  width
+/* --- TABLE --- */
+.pad- {
+  padding-bottom: 10px;
 }
+
+.pad-sides {
+  padding: 0 10px;
+  padding-bottom: 10px;
+}
+
+
+/*
+[class$="-100"] {
+  width: 100%;
+}
+
+[class$="-50"] {
+  width: 50%;
+}
+
+[class$="-25"] {
+  width: 25%;
+} */
